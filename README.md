@@ -9,7 +9,7 @@
 - Linear voltage regulator for MCU power supply.
 - Audio alerts.
 
-The controller regulates the fan speed using PWM, and the full PWM range (0 - 100%) fits into the temperature range of 25°C - 40°C. Unlike the ATtiny10-based project, this device can poll up to 8 sensors and uses a single 12-38 volt power supply. In the case of connecting a fan without PWM control or without a speed sensor (2- 3-wire fans), the control is carried out for a temperature threshold of 30°C: if the hottest sensor's temperature below this limit, then a logical 0 is set at the 2nd pin of the chip, and if higher, then 1. This pin is used to control the EN pin of the DC-DC converter.
+The controller regulates the fan speed using PWM, and the full PWM range (0 - 100%) fits into the temperature range of 25°C - 40°C. Unlike the [ATtiny10-based project](https://github.com/DmitryMuravyev/ATtiny10-DS18B20-Fan-Controller), this device can poll up to 8 sensors and uses a single 12-38 volt power supply. In the case of connecting a fan without PWM control or without a speed sensor (2- 3-wire fans), the control is carried out for a temperature threshold of 30°C: if the hottest sensor's temperature below this limit, then a logical 0 is set at the 2nd pin of the chip, and if higher, then 1. This pin is used to control the EN pin of the DC-DC converter.
 The controller also issues an audible alarm when the temperature of the hottest sensor exceeds the threshold of 50°C.
 
 See the detailed review of the project on my YT-channel (English subtitles): https://youtu.be/DCnN7JbptWM
