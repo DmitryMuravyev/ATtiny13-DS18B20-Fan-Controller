@@ -14,7 +14,7 @@ The controller also issues an audible alarm when the temperature of the hottest 
 
 See the detailed review of the project on my YT-channel (English subtitles): https://youtu.be/DCnN7JbptWM
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DCnN7JbptWM/maxresdefault.jpg)](https://www.youtube.com/watch?v=DCnN7JbptWM)
+[![Click to see](https://img.youtube.com/vi/DCnN7JbptWM/maxresdefault.jpg)](https://www.youtube.com/watch?v=DCnN7JbptWM)
 
 <h1>Details</h1>
 You can find the project schematic, PCB drawing and other materials here: https://oshwlab.com/sneer2sneer/attini13-fan-controller
